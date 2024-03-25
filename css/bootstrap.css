@@ -1,0 +1,292 @@
+.dropdown-menu .dropdown-header {
+  color: #868e96;
+}
+
+.badge.bg-secondary,
+.badge.bg-light {
+  color: #343a40;
+}
+
+.encargado-text {
+  font-size: 14px;
+  /* Ajusta el tamaño de fuente según tus necesidades */
+}
+
+.custom-textarea textarea {
+  height: 80px;
+  /* Ajusta esta altura según tus necesidades */
+}
+
+/*----------------------------------------------------------*/
+
+/* Estilos personalizados para el riel */
+.custom-scrollbar {
+  max-height: 500px;
+  overflow-y: scroll;
+  /* Cambiado a 'scroll' para que el scrollbar siempre sea visible */
+  scrollbar-width: 10px;
+  /* Personaliza el ancho del scrollbar */
+  scrollbar-color: #42ade9 #f8f9fa;
+  /* Personaliza los colores del scrollbar */
+}
+
+/* Estilos para el thumb del scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 16px;
+  /* Ancho del scrollbar */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #42ade9;
+  /* Color del thumb */
+  border-radius: 10px;
+  /* Borde redondeado del thumb */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: #495057;
+  /* Color del thumb al pasar el mouse */
+}
+
+/*----------------------------------------------------------*/
+
+/*tabla de historial*/
+.tabla {
+  width: 100%; /* Ancho máximo de la tabla */
+overflow-x: auto;
+/* Habilitar el desplazamiento horizontal */
+margin: 0 auto;
+/* Centrar la tabla */
+}
+
+.table-wrapper {
+  width: max-content;
+  /* Ancho máximo de la tabla */
+}
+
+table {
+  width: 100%;
+  /* Ancho de la tabla */
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+/*----------------------------------------------------------*/
+
+/* idea camara */
+#camera, #capturedImage {
+  width: 300px;
+  height: 200px;
+  border: 2px solid #ccc;
+  margin-bottom: 10px;
+}
+#capturedImage {
+  display: none;
+}
+
+/*----------------------------------------------------------*/
+
+/* Estilo personalizado para el botón de selección de archivo */
+.custom-file-input {
+  width: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.custom-file-input input[type="file"] {
+  position: absolute;
+  font-size: 100px;
+  right: 0;
+  top: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.custom-file-input .custom-file-label {
+  width: auto;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+/*----------------------------------------------------------*/
+
+/* sub menu del menu principal */
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -1px;
+}
+
+/*----------------------------------------------------------*/
+
+/* ancho de todo */
+.mi-contenedor {
+  max-width: 80%; /* Cambia 80% al porcentaje deseado */
+  margin: 0 auto;
+}
+
+
+
+
+/*----------------------------------------------------------*/
+
+/* Estilos personalizados */
+/* Colores */
+:root {
+  --main-blue: #007bff;
+  --complementary-orange: #ff7f00;
+}
+
+/* Botones y enlaces */
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: var(--complementary-orange);
+  border-color: var(--complementary-orange);
+}
+
+a {
+  color: var(--complementary-orange);
+}
+
+a:hover {
+  color: darken(var(--complementary-orange), 10%);
+}
+
+/* Fondos de sección */
+.section-bg-light {
+  background-color: #f8f9fa; /* Un tono de gris claro */
+}
+
+.section-bg-dark {
+  background-color: #343a40; /* Un tono de gris oscuro */
+  color: #fff; /* Texto blanco para contrastar */
+}
+
+/* Iconos y resaltadores */
+.icon-highlight {
+  color: var(--complementary-orange);
+}
+
+/* Gradientes sutiles */
+.gradient-bg {
+  background: linear-gradient(to bottom right, var(--main-blue), var(--complementary-orange));
+}
+
+
+
+
+/*----------------------------------------------------------*/
+
+
+/* Estilos personalizados de INDEX */
+body {
+  background-color: #f8f9fa;
+  color: #343a40;
+}
+
+.jumbotron {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 50px;
+  color: #343a40;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
+}
+
+.card {
+  border: none;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.card-title {
+  color: #007bff;
+  font-weight: bold;
+}
+
+.card-text {
+  color: #555;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.img-fluid {
+  border-radius: 15px;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.img-fluid:hover {
+  transform: scale(1.05);
+}
+
+
+/*----------------------------------------------------------*/
+
+/* Estilos personalizados */
+/* Colores */
+:root {
+  --main-blue: #007bff;
+  --light-blue: #a7d9f0; /* Tono más claro del azul principal */
+  --dark-blue: #004e93; /* Tono más oscuro del azul principal */
+}
+
+/* Fondos de sección */
+.section-bg-light-blue {
+  background-color: var(--light-blue);
+  padding: 50px;
+}
+
+.section-bg-dark-blue {
+  background-color: var(--dark-blue);
+  padding: 50px;
+  color: #fff; /* Texto blanco para contrastar */
+}
+
+/*----------------------------------------------------------*/
+/* Cronometro */
+
+.timer {
+  font-size: 24px;
+}
+
+.finish-time {
+  font-weight: bold;
+}
+
+
+/*----------------------------------------------------------*/
+/* riesgo */
+
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.risk-assessment {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+#risk-result {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+
+
+
